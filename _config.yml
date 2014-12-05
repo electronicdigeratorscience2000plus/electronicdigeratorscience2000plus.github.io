@@ -4,7 +4,7 @@ relative_permalinks: true
 
 # Setup
 title:            Electronic Digerator Science 2000+
-tagline:          Le oueblogue de #devroom@ulminfo.fr
+tagline:          Le oueblogue de \#devroom@ulminfo.fr
 # url:              http://getpoole.com
 paginate:         1
 baseurl:          /
