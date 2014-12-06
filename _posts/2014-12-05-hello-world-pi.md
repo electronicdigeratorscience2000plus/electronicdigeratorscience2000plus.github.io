@@ -73,7 +73,7 @@ Plus généralement, tous les $$\zeta(2n)$$ pour $$n \in
 Encore un petit coup de Fourier : en comparant les coefficients de
 Fourier d'une fonction 1-périodique et de sa dérivée on obtient
 
-$$ \int\_0^1 |f(t)|^2 dt \leq \frac{1}{4\pi^2}\int\_0^1 |f'(t)|^2 dt $$
+$$ \int_0^1 \lvert f(t) \rvert^2 dt \leq \frac{1}{4\pi^2}\int_0^1 \lvert f'(t)\rvert^2 dt $$
 
 Par exemple en travaillant sur des lacets simples dans le plan
 euclidien on peut obtenir l'inégalité isopérimétrique dont le cas
