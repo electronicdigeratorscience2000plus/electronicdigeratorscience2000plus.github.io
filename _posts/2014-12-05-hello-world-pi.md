@@ -22,7 +22,7 @@ Je[^1] n'ai jamais été un fanatique de $$\pi$$, ni de
 constante fondamentale du cercle euclidien. Généralement je considère
 que la vraie beauté des mathématiques est dans ses concepts et non
 dans des nombres individuels. Pourtant, en y réfléchissant récemment,
-je me suis rendu compte que $$\pi$$) avait tendance à apparaître dans
+je me suis rendu compte que $$\pi$$ avait tendance à apparaître dans
 plein de formules remarquables où on ne l'attend pas. Bien sûr, on
 trouve sur la Wikipédia anglophone une
 [liste](http://en.wikipedia.org/wiki/List_of_formulae_involving_π)
