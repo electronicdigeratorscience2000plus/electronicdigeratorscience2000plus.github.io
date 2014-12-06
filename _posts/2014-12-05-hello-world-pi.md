@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Hello world, et \( \pi \)
+title: Hello world, et π
+author: Tito
 ---
 
 Bonjour le monde ! Ceci est le premier billet sur ce blog collectif
