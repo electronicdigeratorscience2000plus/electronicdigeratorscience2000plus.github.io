@@ -11,7 +11,7 @@ Pour commencer, voici un billet de maths élémentaires qui n'est bien
 sûr qu'un prétexte pour montrer le joli rendu des formules de maths en
 \( \LaTeX \) par [MathJax](http://www.mathjax.org/).
 
-Test backslash \( ab \)
+Test backslash \( ab \) \a \b \c \d
 ---------------------
 
 Je[^1] n'ai jamais été un fanatique de \( \pi \), ni de
