@@ -85,7 +85,7 @@ d'égalité est le cercle : nous voilà revenus aux bases.
 Un grand classique taupinal à base d'intégration par parties permet
 d'obtenir
 
-$$ \prod_{n=1}^\infty \left( \frac{2n}{2n-1}\times\frac{2n}{2n+1} \right)$$
+$$ \prod_{n=1}^\infty \left( \frac{2n}{2n-1}\times\frac{2n}{2n+1} \right) = \frac{\pi}{2}$$
 
 Les formules faisant apparaître $$\pi$$ comme somme ou produit infini
 avec des fractions sont légion (pensons par exemple à $$\arctan(1)$$
