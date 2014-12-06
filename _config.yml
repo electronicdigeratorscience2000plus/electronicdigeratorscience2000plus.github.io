@@ -17,3 +17,7 @@ baseurl:          /
 version:          1.0.0
 github:
   repo:           https://github.com/electronicdigeratorscience2000plus/electronicdigeratorscience2000plus.github.io
+
+# Markdown parser
+markdown:  redcarpet
+
