@@ -4,7 +4,12 @@ layout: default
 
 <article class="post">
   <h1 class="post-title">{{ page.title }}</h1>
+  <div>
+  Publié le
   <time datetime="{{ page.date | date_to_xmlschema }}" class="page-date">{{ page.date | date: "%Y-%m-%d" }}</time>
+  par
+  <address rel="author">{{ page.author }}</address>
+  </div>
   {{ content }}
 </article>
 
