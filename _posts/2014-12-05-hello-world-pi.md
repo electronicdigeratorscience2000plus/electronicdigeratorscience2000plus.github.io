@@ -136,7 +136,7 @@ constant.
 
 
 [^1]: C'est ici, après un message collectif de bienvenue, que la voix
-      individuelle de l'auteur de cet article fait surface.
+      individuelle de l'auteur de ces lignes fait surface.
 
 [^2]: Trouvé sur Wikipédia : Keith Devlin aurait écrit "Like a
       Shakespearean sonnet that captures the very essence of love, or
