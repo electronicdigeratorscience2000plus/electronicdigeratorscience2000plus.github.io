@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello world, et quelques formules avec \( \pi \)
+title: Hello world, et \( \pi \)
 ---
 
 Bonjour le monde ! Ceci est le premier billet sur ce blog collectif
@@ -11,7 +11,7 @@ Pour commencer, voici un billet de maths élémentaires qui n'est bien
 sûr qu'un prétexte pour montrer le joli rendu des formules de maths en
 \( \LaTeX \) par [MathJax](http://www.mathjax.org/).
 
-## Quelques formules faisant intervenir le nombre \( \pi \)
+## Test backslash \ \ \
 
 Je[^1] n'ai jamais été un fanatique de \( \pi \), ni de
 [l'autre prétendant](http://www.tauday.com/tau-manifesto) au statut de
@@ -31,5 +31,6 @@ $$ \sum_{n=1}^\infty \frac{1}{n^2} = \frac{\pi^2}{6} $$
 
 $$ n! \sim_{n \to \infty} \sqrt{2\pi n} \left( \frac{n}{e} \right)^n $$
 
-[^1]: Test footnote
+[^1]: C'est ici, après un message collectif de bienvenue, que la voix
+      individuelle de l'auteur de cet article fait surface.
 
