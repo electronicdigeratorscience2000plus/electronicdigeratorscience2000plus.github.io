@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello world, et \( \pi \)
+title: Hello world, et `\( \pi \)`
 ---
 
 Bonjour le monde ! Ceci est le premier billet sur ce blog collectif
@@ -11,7 +11,7 @@ Pour commencer, voici un billet de maths élémentaires qui n'est bien
 sûr qu'un prétexte pour montrer le joli rendu des formules de maths en
 \( \LaTeX \) par [MathJax](http://www.mathjax.org/).
 
-Test backslash \( ab \) \a \b \c \d
+Test backslash
 ---------------------
 
 Je[^1] n'ai jamais été un fanatique de \( \pi \), ni de
@@ -26,7 +26,7 @@ la Wikipédia anglophone une
 certainement non exhaustive de telles formules. Voici une petite
 sélection.
 
-### L'identité d'Euler : \( e^{i\pi} + 1 = 0 \)
+### L'identité d'Euler : `\( e^{i\pi} + 1 = 0 \)`
 
 $$ \sum_{n=1}^\infty \frac{1}{n^2} = \frac{\pi^2}{6} $$
 
