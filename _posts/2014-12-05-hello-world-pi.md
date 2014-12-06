@@ -66,14 +66,14 @@ Vouloir comprendre la preuve m'a motivé à apprendre les bases de la
 théorie des espaces de Hilbert.
 
 Plus généralement, tous les $$\zeta(2n)$$ pour $$n \in
-\mathbb{N}*$$[^3] sont des multiples rationnels de $$\pi^{2n}$.
+\mathbb{N}^*$$[^3] sont des multiples rationnels de $$\pi^{2n}$$.
 
 ### L'inégalité de Wirtinger
 
 Encore un petit coup de Fourier : en comparant les coefficients de
 Fourier d'une fonction 1-périodique et de sa dérivée on obtient
 
-$$ \int_0^1 |f(t)|^2 dt \leq \frac{1}{4\pi^2}\int_0^1 |f'(t)|^2 dt $$
+$$ \int\_0^1 |f(t)|^2 dt \leq \frac{1}{4\pi^2}\int\_0^1 |f'(t)|^2 dt $$
 
 Par exemple en travaillant sur des lacets simples dans le plan
 euclidien on peut obtenir l'inégalité isopérimétrique dont le cas
@@ -84,7 +84,7 @@ d'égalité est le cercle : nous voilà revenus aux bases.
 Un grand classique taupinal à base d'intégration par parties permet
 d'obtenir
 
-$$ \prod_{n=1}^\infty \left( \frac{2n}{2n-1}\times\frac{2n}{2n+1} $$
+$$ \prod_{n=1}^\infty \left( \frac{2n}{2n-1}\times\frac{2n}{2n+1} \right)$$
 
 Les formules faisant apparaître $$\pi$$ comme somme ou produit infini
 avec des fractions sont légion (pensons par exemple à $$\arctan(1)$$
@@ -96,7 +96,8 @@ représentante du genre, c'est à cause de…
 
 $$ n! \underset{n \to \infty}{\sim} \sqrt{2\pi n} \left( \frac{n}{e} \right)^n $$
 
-Trop fort. On obtient ça à un facteur près en passant au logarithme et
+Trop fort. Et vraiment utile, contrairement aux autres formules ici
+présentes. On obtient ça à un facteur près en passant au logarithme et
 en bidouillant avec des séries téléscopiques ; la constante
 $$\sqrt{2\pi}$$ est obtenue en injectant l'équivalent dans le produit
 de Wallis.
