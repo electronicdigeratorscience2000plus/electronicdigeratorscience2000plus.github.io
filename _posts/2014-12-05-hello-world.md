@@ -11,7 +11,8 @@ Pour commencer, voici un billet de maths élémentaires qui n'est bien
 sûr qu'un prétexte pour montrer le joli rendu des formules de maths en
 \( \LaTeX \) par [MathJax](http://www.mathjax.org/).
 
-## Test backslash \ \ \
+Test backslash \( ab \)
+---------------------
 
 Je[^1] n'ai jamais été un fanatique de \( \pi \), ni de
 [l'autre prétendant](http://www.tauday.com/tau-manifesto) au statut de
@@ -20,7 +21,7 @@ que la vraie beauté des mathématiques est dans ses concepts et non
 dans des nombres individuels. Pourtant, en y réfléchissant récemment,
 je me suis rendu compte que \( \pi \) avait tendance à apparaître dans
 plein de formules où on ne l'attend pas. Bien sûr, on trouve sur
-Wikipédia une
+la Wikipédia anglophone une
 [liste](http://en.wikipedia.org/wiki/List_of_formulae_involving_π)
 certainement non exhaustive de telles formules. Voici une petite
 sélection.
