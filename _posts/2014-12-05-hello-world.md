@@ -1,6 +1,6 @@
 ---
 layout: post
-title: `Hello world`, et quelques formules avec \( \pi \)
+title: Hello world, et quelques formules avec \( \pi \)
 ---
 
 Bonjour le monde ! Ceci est le premier billet sur ce blog collectif
