@@ -13,9 +13,9 @@ title: Home
     </h1>
     <div class="post-date-author">
       Publié le
-      <time datetime="{{ page.date | date_to_xmlschema }}" class="page-date">{{ page.date | date: '%Y-%m-%d' }}</time>
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%Y-%m-%d' }}</time>
       par
-      <span rel="author">{{ page.author }}</span>
+      <span rel="author">{{ post.author }}</span>
     </div>
     {{ post.content }}
   </article>
