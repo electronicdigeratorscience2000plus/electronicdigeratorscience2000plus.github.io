@@ -1,0 +1,19 @@
+{% comment %} Stuff in <pre> should not be modified.  {% endcomment %}
+{% assign t1 = content | split:'<pre>' %}
+{% for t2 in t1 %}
+{% assign t3 = t2 | split:'</pre>' %}
+{% if t3.size == 2 %}2
+<pre>{{t3.first}}</pre>
+{% endif %}
+{% comment %} t: the text to be modified. {% endcomment %}
+{% assign t = t3.last %}
+{% assign t = t | replace:'“','&#171;&#160;' %}
+{% assign t = t | replace:'”','&#160;&#187;' %}
+{% assign t = t | replace:' :','&#160;:' %}
+{% assign t = t | replace:' %','&#160;%' %}
+{% assign thinsp = '<span style="white-space:nowrap">&thinsp;</span>' %}
+{% assign z = thinsp | append:'!' %}{% assign t = t | replace:' !',z %}
+{% assign z = thinsp | append:'?' %}{% assign t = t | replace:' ?',z %}
+{% assign z = thinsp | append:';' %}{% assign t = t | replace:' ;',z %}
+{{t}}
+{% endfor %}
