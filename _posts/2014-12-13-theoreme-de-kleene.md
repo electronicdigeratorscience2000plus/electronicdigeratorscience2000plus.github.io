@@ -298,7 +298,7 @@ comme les demi-anneaux et algèbres de Kleene[^graph]...
       Le langage reconnu par un automate est égal à
       l'union des langages résiduels de ses états initiaux.
       On obtient aussi des équations linéaires, sauf que
-      les "coefficients" sont à gauche des inconnues $$L(e)$$ et
+      les "coefficients" sont à gauche des inconnues $$L_e$$ et
       un terme constant $$\epsilon$$ apparaît pour les états acceptants
       plutôt qu'initiaux.
       Mais dans le contexte de la reconnaissance de multiples,
