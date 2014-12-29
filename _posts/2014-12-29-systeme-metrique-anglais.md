@@ -210,7 +210,7 @@ $$\frac{1}{d(A)} = \sum_{b \in B} \frac1b .$$
    
 - Soit $$B=\{1,4,9,16,\dots\}$$ l'ensemble des carrés, et $$A$$ l'ensemble des 
    nombres *squarefree*, c'est-à-dire divisibles par aucun carré (*i.e.* 
-   produits de nombres premiers distincs). On a aussi $$A \otimes B = \mathbb{N}^*$$,
+   produits de nombres premiers distincts). On a aussi $$A \otimes B = \mathbb{N}^*$$,
    de plus $$\sum_{n\geq 1} \frac{1}{n^2} = \frac{\pi ^2}{6}$$, et donc la 
    densité des nombres *squarefree* vaut $$\frac{6}{\pi^2}$$. Évidemment il y 
    a une arnaque : je n'ai pas prouvé que $$A$$ avait une densité (ce qui n'est 
