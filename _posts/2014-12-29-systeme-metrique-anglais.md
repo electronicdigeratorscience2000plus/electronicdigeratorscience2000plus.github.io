@@ -207,7 +207,6 @@ $$\frac{1}{d(A)} = \sum_{b \in B} \frac1b .$$
    donc on découvre avec stupeur que
    
   $$\sum_{k\geq 0} \frac{1}{r^k} = \frac{r}{r-1}.$$
-
 2. Soit $$B=\{1,4,9,16,\dots\}$$ l'ensemble des carrés, et $$A$$ l'ensemble des 
    nombres *squarefree*, c'est-à-dire divisibles par aucun carré (*i.e.* 
    produits de nombres premiers distincs). On a aussi $$A \otimes B = \mathbb{N}^*$$,
@@ -215,7 +214,6 @@ $$\frac{1}{d(A)} = \sum_{b \in B} \frac1b .$$
    densité des nombres *squarefree* vaut $$\frac{6}{\pi^2}$$. Évidemment il y 
    a une arnaque : je n'ai pas prouvé que $$A$$ avait une densité (ce qui n'est 
    pas facile à prouver, et sans doute plus profond que la valeur elle-même...).
-
 3. Dans la même veine, je ne sais pas grand chose de $$\zeta(3)$$, mais je suis 
    convaincu que c'est l'inverse de la densité des nombres *cubefree* !
 
