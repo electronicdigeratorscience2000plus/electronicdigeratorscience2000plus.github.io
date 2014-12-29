@@ -164,7 +164,7 @@ On va démontrer ce théorème, en commençant par un petit lemme :
   $$ \limsup_{m} \frac{\# bA\cap [1;m]}{m} = \limsup_{m} \frac{\lfloor \frac{m}{b} \rfloor}{m} \frac{\# A\cap [1;\lfloor \frac{m}{b} \rfloor]}{\lfloor \frac{m}{b} \rfloor} \leq \frac1b \limsup_{n} \frac{\# A\cap [1;n]}{n} $$
 
   donc $$\frac1b d^+ (A) \geq d^+ (bA)$$ et donc c'est égal. Pour la $$\liminf$$ 
-  c'est pareil. $$\box$$
+  c'est pareil. $$\Box$$
 
 Passons à la preuve légèrement plus intéressante du théorème. Par le 
 [lemme de Fatou](http://fr.wikipedia.org/wiki/Lemme_de_Fatou), 
@@ -231,12 +231,12 @@ suites. Donc une base multiplicative de $$\mathbb{N}^*$$ équivaut à une base
 additive de $$\mathbb{N}^{(\mathbb{N})}$$. Or celles-ci ne sont pas, à ma 
 connaissance, classifiées (pas même d'ailleurs celles de $$\mathbb{N}^2$$, avis 
 aux amateurs). Ça donne toutefois une recette pour fabriquer des bases 
-additives, que voici :
+additives, que voici.
 
-- pour tout nombre premier $$p$$, on choisit une base additive 
+- Pour tout nombre premier $$p$$, on choisit une base additive 
   $$(A^p_i)_{i\in I}$$ de $$\mathbb{N}$$ (il est important que l'ensemble 
   d'indices $$I$$ soit le même pour tout $$p$$).
-- pour $$i\in I$$ on pose $$\mathcal{A}_i = \prod_{p \ \mathrm{ premier}} A^p_i$$,
+- Pour $$i\in I$$ on pose $$\mathcal{A}_i = \prod_{p \ \mathrm{ premier}} A^p_i$$,
   c'est-à-dire que les éléments de $$\mathcal{A}_i$$ s'écrivent comme produits 
   _finis_ $$\prod_{p \ \mathrm{ premier}} a^p_i$$ où $$a^p_i \in A^p_i$$.
 - Alors les $$(\mathcal{A}_i)_{i \in I}$$ forment une base multiplicative de 
