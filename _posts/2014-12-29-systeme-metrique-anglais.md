@@ -200,7 +200,7 @@ $$\frac{1}{d(A)} = \sum_{b \in B} \frac1b .$$
 
 #####Quelques exemples d'utilisation
 
-1. Soit $$r\in \mathbb{N}^*$$, on pose 
+- Soit $$r\in \mathbb{N}^*$$, on pose 
    $$A = \{n \in \mathbb{N}^* \ \mathrm{t.q. } \ r \ \mathrm{ne \ divise \ pas} \ n\}$$
    et $$B=\{1, r, r^2, r^3, \dots \}$$. On a clairement 
    $$A \otimes B = \mathbb{N}^*$$, et $$A$$ a pour densité $$\frac{r-1}{r}$$, 
@@ -208,7 +208,7 @@ $$\frac{1}{d(A)} = \sum_{b \in B} \frac1b .$$
    
   $$\sum_{k\geq 0} \frac{1}{r^k} = \frac{r}{r-1}.$$
    
-2. Soit $$B=\{1,4,9,16,\dots\}$$ l'ensemble des carrés, et $$A$$ l'ensemble des 
+- Soit $$B=\{1,4,9,16,\dots\}$$ l'ensemble des carrés, et $$A$$ l'ensemble des 
    nombres *squarefree*, c'est-à-dire divisibles par aucun carré (*i.e.* 
    produits de nombres premiers distincs). On a aussi $$A \otimes B = \mathbb{N}^*$$,
    de plus $$\sum_{n\geq 1} \frac{1}{n^2} = \frac{\pi ^2}{6}$$, et donc la 
@@ -216,7 +216,7 @@ $$\frac{1}{d(A)} = \sum_{b \in B} \frac1b .$$
    a une arnaque : je n'ai pas prouvé que $$A$$ avait une densité (ce qui n'est 
    pas facile à prouver, et sans doute plus profond que la valeur elle-même...).
    
-3. Dans la même veine, je ne sais pas grand chose de $$\zeta(3)$$, mais je suis 
+- Dans la même veine, je ne sais pas grand chose de $$\zeta(3)$$, mais je suis 
    convaincu que c'est l'inverse de la densité des nombres *cubefree* !
 
 ####Vers une classification
