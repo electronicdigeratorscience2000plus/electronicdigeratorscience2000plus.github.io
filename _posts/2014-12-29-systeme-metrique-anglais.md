@@ -15,15 +15,22 @@ Mais nous nous égarons.
 Prenez, par exemple, le système de mesure des masses *avoirdupois*[^2] 
 post-elizabéthain, qui est grosso modo celui qu'utilisent officiellement les 
 Américains et officieusement les Britanniques. Il contient sept unités :
+
 - on prend pour unité de base la *drachme* (en anglais actuel *drachm* ou 
   *dram*), qui correspond à 1,772 g ;
+
 - 16 drachmes font une *once* (*ounce*) ;
+
 - 16 onces font une *livre* (*pound*) ;
+
 - 14 livres font une *pierre* (*stone*) ;
+
 - 2 pierres font un *quart* (*quarter*, qui se dit par ailleurs *sak de leine* 
   en anglo-normand) ;
+
 - 4 quarts font un *quintal* (*hundredweight*, qui fait, pour ceux qui suivent, 
   environ 50,8kg) ;
+
 - 20 quintaux font une *tonne* (*ton*, qui fait donc... un peu plus qu'une 
   tonne).
 
@@ -118,9 +125,9 @@ multiplicatives de $$\mathbb{N}$$ ?
 En fait on va être modeste et s'intéresser par la suite au cas d'une base 
 constituée de deux ensembles. Remarquons que 
 
-$$A \otimes B = \mathbb{N}^* \ \leftrightarrow \ \sqcup_{b\in B} bA = \mathbb{N}^*$$
+$$A \otimes B = \mathbb{N}^* \ \Longleftrightarrow \ \bigsqcup_{b\in B} bA = \mathbb{N}^*$$
 
-où le symbole $$\sqcup$$ désigne une union disjointe.
+où le symbole $$\bigsqcup$$ désigne une union disjointe.
 
 ####Densités asymptotiques
 
@@ -137,26 +144,27 @@ est aussi la limite de $$\frac{\# A\cap [1;n]}{n}$$.
 Quel est le rapport avec la choucroute ? C'est le petit théorème suivant.
 
 *Théorème* : Si $$A \otimes B = \mathbb{N}^*$$ alors 
-$$\frac{1}{d^+ (A)} \leq \sum_{b \in B} \frac1b \leq \frac{1}{d^- (A)}$$, en 
-interprétant $$\frac10$$ comme $$+\infty$$.
+
+$$\frac{1}{d^+ (A)} \leq \sum_{b \in B} \frac1b \leq \frac{1}{d^- (A)},$$
+
+en interprétant $$\frac10$$ comme $$+\infty$$.
 
 On va démontrer ce théorème, en commençant par un petit lemme :
 
 *Lemme* : $$d^{\pm} (bA) = \frac1b d^{\pm}(A)$$.
 
-\begin{proof}
-On remarque que $$\# A\cap [1;n] = \# bA\cap [1;bn]$$ donc
+*Démonstration du lemme* : 
+  On remarque que $$\# A\cap [1;n] = \# bA\cap [1;bn]$$ donc
 
-$$\frac1b \limsup_{n} \frac{\# A\cap [1;n]}{n} =  \limsup_{n} \frac{\# bA\cap [1;bn]}{bn} \leq \limsup_{m} \frac{\# bA\cap [1;m]}{m}$$
+  $$\frac1b \limsup_{n} \frac{\# A\cap [1;n]}{n} =  \limsup_{n} \frac{\# bA\cap [1;bn]}{bn} \leq \limsup_{m} \frac{\#   bA\cap [1;m]}{m}$$
 
-donc $$\frac1b d^+ (A) \leq d^+ (bA)$$. Dans l'autre sens, on remarque que 
-$$\# bA\cap [1;m] = \# A\cap [1;\lfloor \frac{m}{b} \rfloor]$$ donc
+  donc $$\frac1b d^+ (A) \leq d^+ (bA)$$. Dans l'autre sens, on remarque que 
+  $$\# bA\cap [1;m] = \# A\cap [1;\lfloor \frac{m}{b} \rfloor]$$ donc
 
-$$ \limsup_{m} \frac{\# bA\cap [1;m]}{m} = \limsup_{m} \frac{\lfloor \frac{m}{b} \rfloor}{m} \frac{\# A\cap [1;\lfloor \frac{m}{b} \rfloor]}{\lfloor \frac{m}{b} \rfloor} \leq \frac1b \limsup_{n} \frac{\# A\cap [1;n]}{n} $$
+  $$ \limsup_{m} \frac{\# bA\cap [1;m]}{m} = \limsup_{m} \frac{\lfloor \frac{m}{b} \rfloor}{m} \frac{\# A\cap [1;\lfloor \frac{m}{b} \rfloor]}{\lfloor \frac{m}{b} \rfloor} \leq \frac1b \limsup_{n} \frac{\# A\cap [1;n]}{n} $$
 
-donc $$\frac1b d^+ (A) \geq d^+ (bA)$$ et donc c'est égal. Pour la $$\liminf$$ 
-c'est pareil.
-\end{proof}
+  donc $$\frac1b d^+ (A) \geq d^+ (bA)$$ et donc c'est égal. Pour la $$\liminf$$ 
+  c'est pareil. $$\box$$
 
 Passons à la preuve légèrement plus intéressante du théorème. Par le 
 [lemme de Fatou](http://fr.wikipedia.org/wiki/Lemme_de_Fatou), 
@@ -175,10 +183,10 @@ $$\sum_{b \in B} \frac1b \leq \frac{1}{d^- (A)}$$
 ce qui est la moitié du théorème. Pour l'autre moitié, on distingue deux cas :
 
 - Si $$\sum_{b \in B} \frac1b = + \infty$$, il n'y a rien à prouver.
-- Si $$\sum_{b \in B} \frac1b < \infty$$, on remarque que 
+- Si $$\sum_{b \in B} \frac1b$$ est finie, on remarque que 
   $$\frac{\# bA\cap [1;n]}{n} \leq \frac{\lfloor \frac{n}{b} \rfloor}{n} \leq \frac1b$$
-  puis on applique le lemme de Fatou à $$\frac1b-\frac{\# bA\cap [1;n]}{n}$$[^5],
-  on simplifie les $$\sum_{b \in B} \frac1b$$. On obtient
+  puis on applique le lemme de Fatou[^5] à $$\frac1b-\frac{\# bA\cap [1;n]}{n}$$,
+  et on simplifie les $$\sum_{b \in B} \frac1b$$. On obtient
   
   $$\sum_{b\in B} \limsup_{n} \frac{\# bA\cap [1;n]}{n} \geq \limsup_{n} \sum_{b\in B} \frac{\# bA\cap [1;n]}{n}$$
 
@@ -186,16 +194,18 @@ ce qui est la moitié du théorème. Pour l'autre moitié, on distingue deux cas
   $$d^+ (A) \sum_{b\in B} \frac1b$$ par le lemme, ce qui termine la preuve.
 
 *Corollaire* : Si $$A \otimes B = \mathbb{N}^*$$ et si $$A$$ admet une densité 
-asymptotique alors $$\frac{1}{d(A)} = \sum_{b \in B} \frac1b$$.
+asymptotique alors
+
+$$\frac{1}{d(A)} = \sum_{b \in B} \frac1b .$$
 
 #####Quelques exemples d'utilisation
 
 1. Soit $$r\in \mathbb{N}^*$$, on pose 
-   $$A = \{n \in \mathbb{N}^* \ \mathrm{t.q. } r \ \mathrm{ne divise pas} n\}$$
+   $$A = \{n \in \mathbb{N}^* \ \mathrm{t.q. } \ r \ \mathrm{ne \ divise \ pas} \ n\}$$
    et $$B=\{1, r, r^2, r^3, \dots \}$$. On a clairement 
    $$A \otimes B = \mathbb{N}^*$$, et $$A$$ a pour densité $$\frac{r-1}{r}$$, 
    donc on découvre avec stupeur que
-
+   
   $$\sum_{k\geq 0} \frac{1}{r^k} = \frac{r}{r-1}.$$
 
 2. Soit $$B=\{1,4,9,16,\dots\}$$ l'ensemble des carrés, et $$A$$ l'ensemble des 
@@ -226,16 +236,17 @@ additives, que voici :
 - pour tout nombre premier $$p$$, on choisit une base additive 
   $$(A^p_i)_{i\in I}$$ de $$\mathbb{N}$$ (il est important que l'ensemble 
   d'indices $$I$$ soit le même pour tout $$p$$).
-- pour $$i\in I$$ on pose $$\mathcal{A}_i = \prod_{p \mathrm{ premier}} A^p_i$$,
+- pour $$i\in I$$ on pose $$\mathcal{A}_i = \prod_{p \ \mathrm{ premier}} A^p_i$$,
   c'est-à-dire que les éléments de $$\mathcal{A}_i$$ s'écrivent comme produits 
-  _finis_ $\prod_{p \mathrm{ premier}} a^p_i$$ où $$a^p_i \in A^p_i$$.
+  _finis_ $$\prod_{p \ \mathrm{ premier}} a^p_i$$ où $$a^p_i \in A^p_i$$.
+- Alors les $$(\mathcal{A}_i)_{i \in I}$$ forment une base multiplicative de 
+  $$\mathbb{N}^*$$. 
 
-Alors les $$(\mathcal{A}_i)_{i \in I}$$ forment une base multiplicative de 
-$$\mathbb{N}^*$$. Les deux exemples donnés précédemment sont de ce type, mais
+Les deux exemples donnés précédemment sont de ce type, mais
 en voici un qui ne l'est pas. Pour $$p$$ premier, on note $$\nu_p(n)$$ la 
 *valuation $$p$$-adique* de $$n$$, c'est-à-dire la puissance à laquelle apparaît
 $$p$$ dans la décomposition en facteurs premiers de $$n$$. On pose 
-$$A=\{n \in \mathbb{N}^* \mathrm{ t.q. } \nu_2(n) = \nu_3(n)\}$$ et 
+$$A=\{n \in \mathbb{N}^* \ \mathrm{ t.q. } \ \nu_2(n) = \nu_3(n)\}$$ et 
 $$B=\{2^n, n\in\mathbb{N}\} \cup \{3^n, n\in\mathbb{N}\}$$, c'est une base
 multiplicative qui n'est pas obtenue par la recette.
 
