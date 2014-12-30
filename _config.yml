@@ -1,23 +1,27 @@
+# Dependencies
+markdown:            kramdown
+highlighter:         pygments
+
 # Permalinks
-permalink:        pretty
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:            Électronique Digérateur Science 2000+
-tagline:          "Le oueblogue de #devroom@ulminfo.fr"
-# url:              http://getpoole.com
-paginate:         5
-baseurl:          /
-# author:
-#   name:           Mark Otto
-#   url:            https://twitter.com/mdo
-#   email:          markdotto@gmail.com
+title:               Électronique Digérateur Science 2000+
+tagline:             "Le oueblogue de #devroom@ulminfo.fr"
+description:         <abbr title="Électronique Digérateur Science 2000+">ÉDS2k+</abbr> est un blog collaboratif maintenu par des étudiants. Il a vocation à parler de maths, d'informatique et de plein d'autres choses scientifiques…
+url:                 http://digerateur.xyz
+baseurl:             /
+paginate:            5
+
+# About/contact
+author:
+  name:              JP Duzboub
+  url:               http://digerateur.xyz
+  email:             foo@bar.baz
 
 # Custom vars
-version:          1.0.0
-github:
-  repo:           https://github.com/electronicdigeratorscience2000plus/electronicdigeratorscience2000plus.github.io
-
-# Markdown parser
-markdown:  kramdown
+version:             1.0.0
 

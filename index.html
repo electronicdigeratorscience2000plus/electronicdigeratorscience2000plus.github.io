@@ -1,16 +1,23 @@
 ---
 layout: default
-title: Home
+title: Accueil
 ---
+
+<p class="message">
+  Bienvenue sur <abbr title="Électronique Digérateur Science 2000+">ÉDS2k+</abbr> !<br />
+  <small>Remarquez la présence discrète d'une barre latérale, accessible depuis le bouton en haut à gauche.</small>
+</p>
+
+<h1>Derniers billets</h1>
 
 <div class="posts">
   {% for post in paginator.posts %}
   <article class="post">
-    <h1 class="post-title">
+    <h2 class="post-title">
       <a href="{{ post.url }}">
         {{ post.title }}
       </a>
-    </h1>
+    </h2>
     <div class="post-date-author">
       Publié le
       <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%Y-%m-%d' }}</time>
@@ -37,3 +44,4 @@ title: Home
     <span class="pagination-item newer">Plus récent</span>
   {% endif %}
 </div>
+
