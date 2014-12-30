@@ -51,7 +51,7 @@ tout nombre entier, et d'être unique si on s'interdit de dire des choses
 étranges comme "17 onces" au lieu de "une livre et une once". Autrement dit, on 
 va considérer que l'ensemble "drachmes" contient 16 éléments (0 drachme, 1 
 drachme, ..., 15 drachmes), l'ensemble "onces" en contient aussi 16, l'ensemble 
-"livres" 14, etc. Seul l'ensemble "tonnes" contient une infinité d'événement, 
+"livres" 14, etc. Seul l'ensemble "tonnes" contient une infinité d'éléments, 
 mais celui-ci est un peu particulier, nous y reviendrons.
 
 Le mathématicien N.G. de Bruijn s'est intéressé à ces questions de 
