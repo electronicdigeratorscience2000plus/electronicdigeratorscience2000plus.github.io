@@ -129,7 +129,7 @@ $$A \otimes B = \mathbb{N}^* \ \Longleftrightarrow \ \bigsqcup_{b\in B} bA = \ma
 
 où le symbole $$\bigsqcup$$ désigne une union disjointe.
 
-####Densités asymptotiques
+###Densités asymptotiques
 
 Pour $$A \subset \mathbb{N}$$, on définit
 
@@ -198,7 +198,7 @@ asymptotique alors
 
 $$\frac{1}{d(A)} = \sum_{b \in B} \frac1b .$$
 
-#####Quelques exemples d'utilisation
+####Quelques exemples d'utilisation
 
 - Soit $$r\in \mathbb{N}^*$$, on pose 
    $$A = \{n \in \mathbb{N}^* \ \mathrm{t.q. } \ r \ \mathrm{ne \ divise \ pas} \ n\}$$
@@ -219,7 +219,7 @@ $$\frac{1}{d(A)} = \sum_{b \in B} \frac1b .$$
 - Dans la même veine, je ne sais pas grand chose de $$\zeta(3)$$, mais je suis 
    convaincu que c'est l'inverse de la densité des nombres *cubefree* !
 
-####Vers une classification
+###Vers une classification
 
 De même que N.G. de Bruijn a classifié toutes les bases additives de 
 $$\mathbb{N}$$, peut-on classifier toutes les bases multiplicatives de 
