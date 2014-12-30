@@ -571,3 +571,16 @@ a.pagination-item:hover {
   color: #9a9a9a;
 }
 
+/* On est fiers d'être en jaune et violet */
+.theme-jaune-violet .sidebar,
+.theme-jaune-violet .sidebar-toggle:active,
+.theme-jaune-violet #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #e3a21a;
+}
+.theme-jaune-violet .container a,
+.theme-jaune-violet .sidebar-toggle,
+.theme-jaune-violet .related-posts li a:hover {
+  color: #7e3878;
+}
+
+
