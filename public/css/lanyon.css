@@ -577,10 +577,16 @@ a.pagination-item:hover {
 .theme-jaune-violet #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #ffc40d;
 }
+
 .theme-jaune-violet .container a,
 .theme-jaune-violet .sidebar,
 .theme-jaune-violet .sidebar-toggle,
 .theme-jaune-violet .related-posts li a:hover {
   color: #7e3878;
+}
+
+.theme-jaune-violet .sidebar a.sidebar-nav-item {
+    color: #7e3878;
+    font-weight: bold;
 }
 
