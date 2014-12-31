@@ -590,3 +590,9 @@ a.pagination-item:hover {
     font-weight: bold;
 }
 
+#ccbutton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
