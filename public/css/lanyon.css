@@ -585,7 +585,7 @@ a.pagination-item:hover {
   color: #7e3878;
 }
 
-.theme-jaune-violet .sidebar a.sidebar-nav-item {
+.theme-jaune-violet .sidebar a {
     color: #7e3878;
     font-weight: bold;
 }
