@@ -13,8 +13,6 @@ la recette de ma maman.
 - Il est très facile et rapide à faire;
 - Il peut nourrir une personne pendant plusieurs jours;
 - Il est bon (je trouve), notamment assaisonné avec de la sauce soja;
-- Il est probablement végétarien (je ne connais pas très bien les détails
-  techniques).
 
 ### Recette
 
