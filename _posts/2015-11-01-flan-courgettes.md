@@ -41,8 +41,9 @@ Verser le mélange dans un plat préalablement garni de papier cuisson. Mettre a
 four thermostat 6 (ou 200°C) pendant environ 30 minutes.
 
 [^1]: D'accord, ce billet ne parle pas de Science™. Mais il parle de digestion,
-alors, « c'est OK ».
+      alors, « c'est OK ».
 
 [^2]: Le nombre dépend de la taille du plat et de la taille des
-courgettes. Heureusement, on peut rajouter une courgette au mélange à n'importe
-quel moment de la préparation, si on voit que l'on a pas assez de volume.
+      courgettes. Heureusement, on peut rajouter une courgette au mélange à
+      n'importe quel moment de la préparation, si on voit que l'on a pas assez
+      de volume.
