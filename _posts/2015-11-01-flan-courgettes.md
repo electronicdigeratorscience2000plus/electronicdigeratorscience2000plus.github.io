@@ -38,6 +38,17 @@ Effectuer les étapes suivantes en mélangeant le contenu du saladier entre chaq
 Verser le mélange dans un plat préalablement garni de papier cuisson. Mettre au
 four thermostat 6 (ou 200°C) pendant environ 30 minutes.
 
+---------------------
+
+### Bonus : variante avec patates douces et champignons
+
+C'est aussi très bon, et cette fois végétarien. Il suffit de :
+
+- Remplacer les courgettes par 2 à 4 patates douces;
+- remplacer le thon par 4 à 6 champignons de Paris, coupés en petits bâtonnets;
+- mettre un œuf de plus que pour la version avec courgettes;
+- faire cuire 5 minutes de moins.
+
 [^1]: D'accord, ce billet ne parle pas de Science™. Mais il parle de digestion,
       alors, « c'est OK ».
 
