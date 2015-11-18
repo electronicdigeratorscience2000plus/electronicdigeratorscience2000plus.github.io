@@ -1,0 +1,19 @@
+\documentclass[tikz,convert={outfile=\jobname.svg}]{standalone}
+%\usetikzlibrary{...}% tikz package already loaded by 'tikz' option
+\usepackage{ifthen}
+\usepackage{fp}
+\begin{document}
+\tikzstyle{elt}=[circle,draw,fill=white]
+\begin{tikzpicture}% Example:
+  \newcommand{\N}{5}
+  \foreach \i in {1,...,\N} {
+    \node[elt] (a\i) at (2*\i,0) {$a_{\i}$};
+    \node[elt] (b\i) at (2*\i+0.5,2) {$b_{\i}$};
+    \draw[->] (a\i) -- (b\i);
+    \ifthenelse{\equal{\i}{1}}
+    {}
+    {\FPeval{\j}{clip(\i-1)}\draw[->] (b\j) -- (b\i);};
+  };
+  \FPeval{\M}{clip(\N+1)}\node[elt] (a\M) at (2*\M,0) {$a_{\M}$};
+\end{tikzpicture}
+\end{document}

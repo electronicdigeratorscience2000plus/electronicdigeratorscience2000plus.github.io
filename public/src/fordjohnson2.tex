@@ -1,0 +1,29 @@
+\documentclass[tikz,convert={outfile=\jobname.svg}]{standalone}
+%\usetikzlibrary{...}% tikz package already loaded by 'tikz' option
+\usepackage{ifthen}
+\usepackage{fp}
+\begin{document}
+\tikzstyle{elt}=[circle,draw,fill=white]
+\begin{tikzpicture}% Example:
+  \node[elt] (a1) at (0,2) {$a_1$};
+  \node[elt] (a3) at (1.5,2) {$a_3$};
+  \node[elt] (b1) at (3,2) {$b_1$};
+  \node[elt] (a2) at (4.5,2) {$a_2$};
+  \node[elt] (b2) at (6,2) {$b_2$};
+  \node[elt] (b3) at (7.5,2) {$b_3$};
+  \draw[->] (a1) -- (a3);
+  \draw[->] (a3) -- (b1);
+  \draw[->] (b1) -- (a2);
+  \draw[->] (a2) -- (b2);
+  \draw[->] (b2) -- (b3);
+  \foreach \i in {4, 5} {
+    \node[elt] (a\i) at (2.5+1.5*\i,0) {$a_{\i}$};
+    \node[elt] (b\i) at (3+1.5*\i,2) {$b_{\i}$};
+    \draw[->] (a\i) -- (b\i);
+    \ifthenelse{\equal{\i}{1}}
+    {}
+    {\FPeval{\j}{clip(\i-1)}\draw[->] (b\j) -- (b\i);};
+  };
+  \node[elt] (a6) at (11.5,0) {$a_6$};
+\end{tikzpicture}
+\end{document}
