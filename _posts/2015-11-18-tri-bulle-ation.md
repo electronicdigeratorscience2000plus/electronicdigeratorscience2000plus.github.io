@@ -103,7 +103,7 @@ $$\operatorname{insert}(n) = \operatorname{fusion}(n).$$
 ## Tri de Ford-Johnson (1959)
 
 Ford comme dans Ford-Fulkerson (flot maximum) et Bellman-Ford (plus courts
-chemins ; Johnson comme dans Steinhaus-Johnson-Trotter (énumération de
+chemins) ; Johnson comme dans Steinhaus-Johnson-Trotter (énumération de
 permutations).
 
 Aussi appelé "tri fusion par insertion" ; on espère du progrès en
